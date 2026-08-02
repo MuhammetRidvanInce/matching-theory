@@ -1,0 +1,38 @@
+{
+  "design": {
+    "market": "100 students / 10 colleges",
+    "seeds": "1-100",
+    "baseline": "independent heterogeneous student preferences",
+    "alternative": "correlated student preferences: common college quality plus student-specific random component, equal weights"
+  },
+  "baseline_independent_reported": {
+    "mcsdm_mean": 0.822,
+    "mcsdm_std": 0.05,
+    "gssosm_mean": 0.836,
+    "gssosm_std": 0.052,
+    "mean_difference": 0.014,
+    "mean_difference_percent_of_mcsdm": 1.68,
+    "gssosm_better_count": 30,
+    "equal_count": 70,
+    "gssosm_worse_count": 0,
+    "paired_t_statistic": 8.77,
+    "paired_t_p_value": "<0.001",
+    "wilcoxon_p_value_nonzero_pairs": "<0.001"
+  },
+  "alternative_correlated": {
+    "mcsdm_mean": 0.49867999999999996,
+    "mcsdm_std": 0.07276402707632142,
+    "gssosm_mean": 0.4992599999999999,
+    "gssosm_std": 0.07282920659552274,
+    "mean_difference": 0.00058,
+    "mean_difference_percent_of_mcsdm": 0.11630705061361998,
+    "gssosm_better_count": 11,
+    "equal_count": 89,
+    "gssosm_worse_count": 0,
+    "paired_t_statistic": 3.03162489943154,
+    "paired_t_p_value": 0.0031047273616431133,
+    "wilcoxon_statistic_nonzero_pairs": 0.0,
+    "wilcoxon_p_value_nonzero_pairs": 0.0009765625
+  },
+  "runtime_seconds": 389.1718831062317
+}
