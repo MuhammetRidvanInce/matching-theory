@@ -15,7 +15,7 @@ The code implements and compares:
 ├── figures/                 # Figures reported in the article
 ├── results/                 # Robustness outputs and manuscript-ready Table 7
 ├── scripts/
-│   ├── Article_Codes_New_Method_2.ipynb
+│   ├── matching_mechanisms_and_utility_analysis.ipynb
 │   ├── run_main_simulations.py
 │   └── run_robustness.py
 ├── src/
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 The article reports 700 simulations: 100 seeds for each of seven market configurations.
 
-The publication notebook containing the mechanism implementation and a worked example is available at `scripts/Article_Codes_New_Method_2.ipynb`.
+The publication notebook containing the mechanism implementation and a worked example is available at `scripts/matching_mechanisms_and_utility_analysis.ipynb`.
 
 ```bash
 python scripts/run_main_simulations.py
